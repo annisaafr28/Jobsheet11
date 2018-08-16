@@ -6,18 +6,21 @@ import java.util.Scanner;
 
 public class y {
     
-       private static void tampilJudul(String identitas) {
-        System.out.println("Identitas : "+ identitas);
+       private static String tampilInput() {
+        Scanner scanner = new Scanner(System.in);
         
-        System.out.println("\nConvert Kalimat Alay Angka (Vokal Ke Angka)\n");
+        System.out.println("Masukkan Kalimat : ");
+        String kalimat = scanner.nextLine();
+        System.out.println("Kalimat Asli : " + kalimat);
         
-    }
+        return kalimat;
+       }
         
     public static void main(String[] args) {
         String identitas = "nama lengkap / kelas / no";
-      
+        String kalimat = tampilInput();
         
-        tampilJudul(identitas);
+        
     }
         
     

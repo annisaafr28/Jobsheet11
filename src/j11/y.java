@@ -3,7 +3,10 @@ package j11;
 
 public class y {
     public static void main(String[] args) {
-        String identitas = "nama lengkap / kelas / no";
-        System.out.println("Identitas : " + identitas);
+        String x = "Operasi";
+        System.out.println("Isi variable x : " + x);
+        System.out.println("\""+ x + "\" panjang karakter = "+ x.length());
+        
+        System.out.println("x adalah kosong : " + x.isEmpty());
     }
 }

@@ -2,19 +2,25 @@
 package j11;
 
 import java.util.Locale;
+import java.util.Scanner;
 
 public class y {
-    public static void main(String[] args) {
-       String y = "";
-       String x = "Operasi";
-       String z = "Operasi";
-       String r = "operasi";
-       String t = "    operasi string    ";
-       
-       
-        double d = 1545454000;
-        System.out.println(String.format("Uang saya %,.4f", d));
+    
+       private static void tampilJudul(String identitas) {
+        System.out.println("Identitas : "+ identitas);
         
-        System.out.println(String.format(Locale.forLanguageTag("in-ID"), "uang saya Rp %,.2f", d));
+        System.out.println("\nConvert Kalimat Alay Angka (Vokal Ke Angka)\n");
+        
     }
-}
+        
+    public static void main(String[] args) {
+        String identitas = "nama lengkap / kelas / no";
+      
+        
+        tampilJudul(identitas);
+    }
+        
+    
+    }    
+    
+

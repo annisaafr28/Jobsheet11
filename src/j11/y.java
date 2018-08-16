@@ -8,13 +8,16 @@ public class y {
        String z = "Operasi";
        String r = "operasi";
        
-        System.out.println("Perbandingan isi x dengan y : " + x.compareTo(y));
-        System.out.println("Perbandingan isi x dengan z (Case Sensitive): " + x.compareTo(z));
-        System.out.println("Perbandingan isi x dengan r (Case Sensitive): " + x.compareTo(r));
-        System.out.println("Perbandingan isi x dengan r (Not Case Sensitive): " + x.compareToIgnoreCase(r));
+       System.out.println("Pada x terdapat huruf 'a' : " + x.contains("a"));
         
-        String s = "operasI";
-        System.out.println("Perbandingan isi r dengan s (Case Sensitive) : " + r.compareTo(s));
+        System.out.println("Isi variable x besar semua : " + x.toUpperCase());
+        System.out.println("Isi variable x kecil semua : " + x.toLowerCase());
+        
+        String t = "    operasi string    ";
+        System.out.println("Isi variable t : \""+ t +"\"");
+        System.out.println("isi variable t tanpa spasi : \""+ t.trim() +"\"");
+        
+        System.out.println("Gabungkan isi variable x dan r : "+ x.concat(r));
 
     }
 }

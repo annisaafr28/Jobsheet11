@@ -7,6 +7,7 @@ public class y {
        String x = "Operasi";
        String z = "Operasi";
        String r = "operasi";
+       String t = "    operasi string    ";
        
        System.out.println("karakter mulai posisi 3 di  variable x : " + x.substring(3));
         

@@ -5,9 +5,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class y {
-    
-       private static void tampilHasil(String convert) {
-        System.out.println("Kalimat Alay Angka : " + convert);
+    public static void main(String[] args) {
+    String identitas = "nama lengkap / kelas / no";
+        System.out.println("Identitas : " + identitas);
     }
     
        }
